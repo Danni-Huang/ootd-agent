@@ -3,7 +3,6 @@ import requests
 import os
 
 #API_KEY = os.getenv("OPENWEATHER_API_KEY") 
-API_KEY = "dbcd42b8887be8e523b5e9d145df84bb"
 
 @tool
 def weather(user_input: str) -> dict:
